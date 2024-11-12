@@ -1,0 +1,14 @@
+# Exclude folders
+
+
+# Exclude specific files
+assignment1.ipynb
+myYolov8.ipynb
+split.py
+test.ipynb
+troubleshoot.ipynb
+troubleshoot.py
+*.pt
+*.pth
+yolov8n_orig.yaml
+yolotransform2.py
