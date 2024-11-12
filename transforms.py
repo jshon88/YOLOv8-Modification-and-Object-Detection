@@ -634,18 +634,14 @@ class Squeeze:
         return image, target
 
 class PILResize:
-    def __call__(self, image, target):
-        width = 640
-        height = 224
-        # img = image.resize((width, height), Image.Resampling.LANCZOS)
-
+    def __call__(self, image, target, size=640):
 
         # print(image.size)
         origh, origw = image.size[1], image.size[0]
-        r = min(640 / origh, 640 / origw)
+        r = min(size / origh, size / origw)
         new_unpad = int(round(origw * r)), int(round(origh * r)) #(640, 426)
         # print(new_unpad)
-        dw, dh = 640 - new_unpad[0], 640 - new_unpad[1]  # wh padding dh=214
+        dw, dh = size - new_unpad[0], size - new_unpad[1]  # wh padding dh=214
         dw, dh = np.mod(dw, 32), np.mod(dh, 32)  # wh padding
         dw /= 2
         dh /= 2
