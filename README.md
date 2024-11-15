@@ -12,3 +12,6 @@ python train.py --model-config path-to-model-config-file --data-config path-to-d
 ## Features
 - Kitti to YOLO conversion
 - Custom ViT Encoder module added in the backbone
+
+## Performance Comparison
+![YOLOv8 vs YOLOv8 with ViT](/data/cmpe258-sp24/017553289/cmpe249/ObjectDetection2D/results/yolo/experiment2/coco_evaluation_metrics_comparsion.pdf)
