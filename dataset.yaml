@@ -1,0 +1,20 @@
+names: 
+  0: 'Car'
+  1: 'Van'
+  2: 'Truck'
+  3: 'Pedestrian'
+  4: 'Person_sitting'
+  5: 'Cyclist'
+  6: 'Tram'
+  7: 'Misc'
+# nc: 8
+train: /data/cmpe258-sp24/017553289/cmpe249/dataset/Kitti/train/images
+  # split: train
+  # image_dir: images
+  # labels_dir: labels
+val: /data/cmpe258-sp24/017553289/cmpe249/dataset/Kitti/val/images
+  # split: val
+  # image_dir: images
+  # labels_dir: labels
+# train: /data/cmpe258-sp24/017553289/cmpe249/dataset/Kitti/train/
+# val: /data/cmpe258-sp24/017553289/cmpe249/dataset/Kitti/val/

@@ -12,3 +12,5 @@ troubleshoot.py
 *.pth
 yolov8n_orig.yaml
 yolotransform2.py
+train.py
+dataset_kitti.py
